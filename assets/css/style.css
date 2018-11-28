@@ -202,7 +202,7 @@ h4 {
   border: 1px solid #dee2e6;
   overflow: auto;
   flex: 1 0 auto;
-  margin: 50px auto;
+  margin: 1rem auto;
   background-color: white;
 }
 
@@ -312,5 +312,16 @@ h4 {
     margin-bottom: .5rem;
   }
 
+@media only screen and (min-width: 768px) {
+  .navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
-
+.about {
+  margin: 5rem auto;
+}
+}
